@@ -1,0 +1,32 @@
+languageCode = "en-us"
+title = "Petr Ruzicka"
+baseURL = "http://petr.xvx.cz/"
+theme = "aerial"
+
+[params]
+  name = "Petr Růžička"
+  about = "DevOps &nbsp;&bull;&nbsp; SysAdmin &nbsp;&bull;&nbsp; Traveller"
+  copyright = "Untitled"
+  #Disable the scrolling background by entering any string for bg_scroll. Enable by leaving bg_scroll empty.
+  bg_scroll = ""
+  favicon = "favicon.ico"
+
+[[params.social]]
+  medium = "Home Page"
+  icon = "home"
+  link = "http://linux.xvx.cz"
+
+[[params.social]]
+  medium = "LinkedIn"
+  icon = "linkedin"
+  link = "https://www.linkedin.com/in/petrruzicka/"
+
+[[params.social]]
+  medium = "GitHub"
+  icon = "github"
+  link = "https://github.com/ruzickap/"
+
+[[params.social]]
+  medium = "Email"
+  icon = "envelope-o"
+  link = "mailto:petr.ruzicka@gmail.com"
