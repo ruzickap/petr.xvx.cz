@@ -8,3 +8,6 @@ install:
 
 script:
   - hugo # This commands builds your website on travis
+  - apt install -y python-pip
+  - pip install linkchecker
+  - linkchecker --check-extern ./public/index.html
