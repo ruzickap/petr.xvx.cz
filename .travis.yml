@@ -1,5 +1,7 @@
 language: go
 
+sudo: true
+
 go:
   - master # This uses automatically the latest version of go
 
@@ -8,6 +10,5 @@ install:
 
 script:
   - hugo # This commands builds your website on travis
-  - apt install -y python-pip
-  - pip install linkchecker
-  - linkchecker --check-extern ./public/index.html
+#  - sudo apt-get install -y linkchecker
+#  - linkchecker ./public/index.html
