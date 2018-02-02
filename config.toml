@@ -1,12 +1,12 @@
 languageCode = "en-us"
 title = "Petr Ruzicka"
-baseURL = "http://petr.xvx.cz/"
+baseURL = "https://petr.xvx.cz/"
 theme = "aerial"
 
 [params]
   name = "Petr Růžička"
   about = "DevOps &nbsp;&bull;&nbsp; SysAdmin &nbsp;&bull;&nbsp; Traveller"
-  copyright = "Untitled"
+  #copyright = "Untitled"
   #Disable the scrolling background by entering any string for bg_scroll. Enable by leaving bg_scroll empty.
   bg_scroll = ""
   favicon = "favicon.ico"
