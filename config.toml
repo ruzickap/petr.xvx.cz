@@ -5,7 +5,7 @@ theme = "aerial"
 
 [params]
   name = "Petr Růžička"
-  about = "DevOps &nbsp;&bull;&nbsp; SysAdmin &nbsp;&bull;&nbsp; Traveller"
+  about = "DevOps &nbsp;&bull;&nbsp; SysAdmin &nbsp;&bull;&nbsp; Photographer"
   #copyright = "Untitled"
   #Disable the scrolling background by entering any string for bg_scroll. Enable by leaving bg_scroll empty.
   bg_scroll = ""
@@ -25,6 +25,26 @@ theme = "aerial"
   medium = "GitHub"
   icon = "github"
   link = "https://github.com/ruzickap/"
+
+[[params.social]]
+  medium = "Flickr"
+  icon = "flickr"
+  link = "https://www.flickr.com/photos/petrruzicka/"
+
+[[params.social]]
+  medium = "500px"
+  icon = "500px"
+  link = "https://500px.com/petrruzicka"
+
+[[params.social]]
+  medium = "Pixabay"
+  icon = "camera"
+  link = "https://pixabay.com/en/users/ruzickap/"
+
+[[params.social]]
+  medium = "Unsplash"
+  icon = "camera-retro"
+  link = "https://unsplash.com/@ruzickap/"
 
 [[params.social]]
   medium = "Email"
