@@ -5,10 +5,8 @@ services:
 
 install:
   - gem install awesome_bot
-  - export HUGO_LATEST_URL=$(curl --silent --location https://api.github.com/repos/spf13/hugo/releases/latest | awk -F \" '/browser_download_url.*Linux-64bit.tar.gz/ { print $4 }')
-  - echo "$HUGO_LATEST_URL"
-  - if [ -z "$HUGO_LATEST_URL" ]; then curl --verbose --location https://api.github.com/repos/spf13/hugo/releases/latest; fi
-  - curl --silent --location $HUGO_LATEST_URL | sudo tar xvzf - -C /usr/local/bin/ hugo
+  - export HUGO_LATEST_RELEASE=$(curl -s https://github.com/gohugoio/hugo/releases/latest | sed 's@.*releases/tag/v\([^"]*\).*@\1@')
+  - curl --silent --location https://github.com/gohugoio/hugo/releases/download/v${HUGO_LATEST_RELEASE}/hugo_${HUGO_LATEST_RELEASE}_Linux-64bit.tar.gz | sudo tar xvzf - -C /usr/local/bin/ hugo
   - rm -rf public || exit 0
 
 script:
