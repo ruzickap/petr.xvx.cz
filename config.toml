@@ -14,7 +14,7 @@ theme = "aerial"
 [[params.social]]
   medium = "Home Page"
   icon = "home"
-  link = "http://linux.xvx.cz"
+  link = "https://linux.xvx.cz"
 
 [[params.social]]
   medium = "LinkedIn"
