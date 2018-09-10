@@ -32,6 +32,11 @@ theme = "aerial"
   link = "https://www.flickr.com/photos/petrruzicka/"
 
 [[params.social]]
+  medium = "Instagram"
+  icon = "instagram"
+  link = "https://www.instagram.com/petr.ruzicka_cz/"
+
+[[params.social]]
   medium = "500px"
   icon = "500px"
   link = "https://500px.com/petrruzicka"
@@ -45,11 +50,6 @@ theme = "aerial"
   medium = "Unsplash"
   icon = "camera-retro"
   link = "https://unsplash.com/@ruzickap/"
-
-[[params.social]]
-  medium = "Instagram"
-  icon = "instagram"
-  link = "https://www.instagram.com/petr.ruzicka_cz/"
 
 [[params.social]]
   medium = "Facebook"
