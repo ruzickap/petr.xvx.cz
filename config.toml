@@ -27,6 +27,11 @@ theme = "aerial"
   link = "https://github.com/ruzickap/"
 
 [[params.social]]
+  medium = "Flickr"
+  icon = "flickr"
+  link = "https://www.flickr.com/photos/petrruzicka/"
+
+[[params.social]]
   medium = "Instagram"
   icon = "instagram"
   link = "https://www.instagram.com/petr.ruzicka_cz/"
